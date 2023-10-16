@@ -1,0 +1,17 @@
+.typewriter-text {
+    background: transparent;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #0000FF; /* Blue hex color */
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
